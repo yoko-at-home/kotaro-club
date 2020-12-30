@@ -67,3 +67,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # kotaro-club
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d6c3bcfd-b072-4097-bea5-aa57520b423f/deploy-status)](https://app.netlify.com/sites/kotaro-club/deploys)
