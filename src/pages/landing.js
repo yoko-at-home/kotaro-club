@@ -11,8 +11,8 @@ function Landing() {
   const audioElementBaby = useRef(null)
   const [currentSessionType, setCurrentSessionType] = useState('🐈...🏃‍♀️') // '🐈...🏃‍♀️' or '☕︎..☕️'
   const [intervalId, setIntervalId] = useState(null)
-  const [sessionLength, setSessionLength] = useState(60 * 25)
-  const [breakLength, setBreakLength] = useState(60 * 5)
+  const [sessionLength, setSessionLength] = useState(60 * 1)
+  const [breakLength, setBreakLength] = useState(60 * 1)
   const [timeLeft, setTimeLeft] = useState(sessionLength)
 
   // change timeLeft whenever sessionLength changes
@@ -26,6 +26,7 @@ function Landing() {
     if (newBreakLength < 0) {
       setBreakLength(0)
       setCurrentSessionType('🐈...🏃‍♀️')
+      audioElement.current.play()
     } else {
       setBreakLength(newBreakLength)
     }
@@ -66,11 +67,12 @@ function Landing() {
       const newIntervalId = setInterval(() => {
         setTimeLeft((prevTimeLeft) => {
           const newTimeLeft = prevTimeLeft - 1
-          if (newTimeLeft >= 0) {
+          if (newTimeLeft > 0) {
             return prevTimeLeft - 1
           }
           // time left is less than zero
           audioElement.current.play()
+          // audioElegment.current.load()
           // if session:
           if (currentSessionType === '🐈...🏃‍♀️') {
             // switch to break
@@ -93,7 +95,7 @@ function Landing() {
 
   const handleResetButtonClick = () => {
     // reset audio
-    audioElement.current.load()
+    // audioElement.current.load()
     audioElementBaby.current.load()
     audioElementBaby.current.play()
     // clear the timeout interval
