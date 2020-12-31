@@ -156,8 +156,16 @@ function Landing() {
         </div>
         <div class='right'>
           <div class='composition'>
-            <a href='https://over40webclub.netlify.app/' target='_blank'>
-              <img class='composition__photo' src={Over40} alt='Over 40 Web Clubのホームページにリンクしています'/>
+            <a
+              href='https://over40webclub.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img
+                class='composition__photo'
+                src={Over40}
+                alt='Over 40 Web Clubのホームページにリンクしています'
+              />
             </a>
           </div>
         </div>
