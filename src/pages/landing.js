@@ -174,14 +174,10 @@ function Landing() {
       </div>
       <div class='container__ad_side'>
         <div class='ad'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
-          necessitatibus fugiat eius modi repellendus ipsum doloribus earum
-          laudantium pariatur!
+          ここの広告を表示させて、マーケティングについても学びたい
         </div>
         <div class='ad'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
-          necessitatibus fugiat eius modi repellendus ipsum doloribus earum
-          laudantium pariatur!
+          携帯では表示しないエリア
         </div>
       </div>
     </div>
