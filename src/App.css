@@ -129,7 +129,7 @@ grid-template-columns: 1fr 1fr;
   color: purple;
   /* text-align: center; */
   z-index: 3;
-  padding-top:0.5rem;
+  padding:0.5rem;
   text-overflow: clip;
 }
 ul li{
@@ -275,8 +275,8 @@ background-size: cover;
 background-position: left;
 }
 .h1 {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2.3rem;
+  line-height: 2.3rem;
   color: purple;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.2);
