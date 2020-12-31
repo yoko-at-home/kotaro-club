@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ae1dc9d.chunk.css",
+    "main.js": "/static/js/main.efe398f9.chunk.js",
+    "main.js.map": "/static/js/main.efe398f9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.50802c6b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.50802c6b.js.map",
+    "static/js/2.eadfb7f5.chunk.js": "/static/js/2.eadfb7f5.chunk.js",
+    "static/js/2.eadfb7f5.chunk.js.map": "/static/js/2.eadfb7f5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.598f2fa9b06187ee1fc0e6efd389c4b8.js": "/precache-manifest.598f2fa9b06187ee1fc0e6efd389c4b8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0ae1dc9d.chunk.css.map": "/static/css/main.0ae1dc9d.chunk.css.map",
+    "static/js/2.eadfb7f5.chunk.js.LICENSE": "/static/js/2.eadfb7f5.chunk.js.LICENSE",
+    "static/media/App.css": "/static/media/kota.9831b1c0.jpg",
+    "static/media/icon.png": "/static/media/icon.d4accbb8.png",
+    "static/media/meow-baby.mp3": "/static/media/meow-baby.dca35750.mp3",
+    "static/media/meow.mp4": "/static/media/meow.04ae2365.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50802c6b.js",
+    "static/js/2.eadfb7f5.chunk.js",
+    "static/css/main.0ae1dc9d.chunk.css",
+    "static/js/main.efe398f9.chunk.js"
+  ]
+}
