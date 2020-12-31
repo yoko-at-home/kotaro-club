@@ -11,8 +11,8 @@ function Landing() {
   const audioElementBaby = useRef(null)
   const [currentSessionType, setCurrentSessionType] = useState('🐈...🏃‍♀️') // '🐈...🏃‍♀️' or '☕︎..☕️'
   const [intervalId, setIntervalId] = useState(null)
-  const [sessionLength, setSessionLength] = useState(60 * 1)
-  const [breakLength, setBreakLength] = useState(60 * 1)
+  const [sessionLength, setSessionLength] = useState(60 * 25)
+  const [breakLength, setBreakLength] = useState(60 * 5)
   const [timeLeft, setTimeLeft] = useState(sessionLength)
 
   // change timeLeft whenever sessionLength changes
